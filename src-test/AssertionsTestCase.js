@@ -9,7 +9,6 @@ AssertionsTestCase.prototype.testAlwaysPass = function(){
   assertString("The variable should contain a string", myStr);
   assertString(myStr);
 };
-
  
 AssertionsTestCase.prototype.testAlwaysFail = function(){
   assertEquals(1, 2);
